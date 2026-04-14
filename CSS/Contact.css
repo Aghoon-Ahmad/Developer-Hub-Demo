@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans-small", sans-serif;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    background-color: #0a0a0a;
+    color: #fff;
+}
+#hero{
+    padding: 20px 70px;
+    width: 100%;
+}
+/* Navigation Bar  */
+#nav-hero{
+    object-fit: cover;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    z-index: 1000;
+    padding: 20px 70px;
+}
+#logo{
+    height: 60px;
+}
+#nav-bar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.16vw;
+    text-transform: uppercase;
+}
+#nav-bar a:hover{
+    opacity: .6;
+    transition: all .3s ease-in-out;
+}
+#nav-bar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Contact */
+#contact-form{
+    padding: 9vw 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Left Side */
+#contact-left h1{
+    font-size: 5.3vw;
+    opacity: .9;
+}
+#top{
+    margin-top: 6.9%;
+}
+#contact-left .left-sml{
+    font-size: .8vw;
+    opacity: .6;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#bottum{
+    margin-top: 5%;
+}
+#top h3, #bottum h3{
+    width: 50%;
+    font-size: 1.2vw;
+    opacity: .8;
+    margin-top: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Right Side */
+#right-form{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+.spn{
+    margin-bottom: 2%;
+    color: red;
+    font-size: .6vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input, textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #333;
+    padding: 10px 0px;
+    color: #fff;
+    font-size: 1.1vw;
+    outline: none;
+}
+
+button{
+    width: 30%;
+    display: inline-block;
+    background-color: black;
+    padding: 1.3vw 0vw;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: .7vw;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 4%;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#right-form button:hover {
+    transition: 0.3s ease;
+    background-color: #ffffff;
+    color: #000000;
+    transform: translateY(-5px);
+}
+
+/* Footer */
+#footer{
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #fff;
+    /* background-color: #282626; */
+    background-color: #1C1C1C;
+    padding: 5vw 4.5vw;
+}
+.row{
+    padding: 20px 0px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+
+}
+#footer h4{
+    color: #bbbbbb;
+    font-size: 1.1vw;
+}
+#footer h4:hover{
+    color: #fff;
+}
+#footer .location, #footer .mail, #footer .call{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+#footer-lists{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.service-list{
+    padding: 1.7vw 0vw;
+}
+.service-list h5{
+    color: #fff;
+    font-size: 1.4vw;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.service-list li, a{
+    color: #bbbbbb;
+    font-size: 1.2vw;
+    text-decoration: none;
+    list-style: none;
+    line-height: 29px;
+}
+.service-list li:hover{
+    color: #fff;
+}
